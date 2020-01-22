@@ -61,28 +61,64 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	color: #6f7173;
-
 }
 h2 {
 	font-size: 42px;
+}
+nav {
+	position: relative;
+	width: 1030px;
+	height: 90px;
 }
 a.logo	{
 	font-size: 42px;
 	color: #000000;
 	position: absolute;
+	top: 25px;
 }
-div.navigation
-div.nav-menu {}
-ul.nav-menu {
+div.nav-menu {
 	font-size: 20px;
+	position: fixed;
+	left: 730px;
+	top: 40px;
+}
+div.products {
+	left: 815px;
+	position: fixed;
+	top: 40px;
+}
+div.services {
+	left: 925px;
+	position: fixed;
+	top: 40px;
+}
+div.contact {
+	left: 1025px;
+	position: fixed;
+	top: 40px;
 }
 
 div.top-content {
 	color: #ffffff;
 	background: #6f7173;
+	text-align: center;
+	width: 1030px;
+	height: 495px;
 }
-div
-div
-p.copyright {
+
+a.sing-up {
+	border-style: none;
+	color: #ffffff;
+	padding: 15px; 
+	background: #5094f2;
+
+}
+div.middle-content {
 	text-align: center;
 }
+p.copyright {
+	text-align: center;
+	border-top:1px solid #cccccc;
+}
+
+
