@@ -63,24 +63,40 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	color: #6f7173;
+
 }
 h2 {
 	font-size: 42px;
 }
-div.wrapper {
-	margin: 0 auto;
-}
-
 header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 32px 0;
 	background: #ffffff;
-	height: 90px;
-}
-a.logo	{
 	font-size: 42px;
 	color: #000000;
+	padding: 24px 50px 24px 30px;
+}
+.logo	{
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+    background-color: #5094f2;
+    overflow: hidden;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: bottom;
+	margin-right: 15px;
+}
+.logo::before {
+	content: "“";
+	position: relative;
+	color: #ffffff;
+	top: 33.33%;
+	font-size: 64px;
 }
 ul.nav-menu {
 	display: flex;
@@ -93,26 +109,75 @@ ul.nav-menu {
 div.top-content {
 	display: flex;
 	justify-content: center;
-
+	align-items:  center;
+	background-image: url("Img/dsfsdfsdfds.png");
+	background-size: cover;
+	height: 490px;
+	color: #ffffff;
 }
+div.left-content {
+	padding-left: 100px;
+	line-height: 44px;
+}
+div.left-content > p {
+	font-size: 26px;
+	line-height: 44px;
+}
+div.left-content > p:last-of-type {
+	padding-bottom: 40px;
+}
+button.sing-up  {
+	background: #5094f2;
+	border: none;
+	padding: 10px;
+	vertical-align: center;
+	font-size: 22px;
+	color: #ffffff;
+}
+button.sing-up:before {
+	content: url("Img/singupicon.png");
+	padding-right: 10px;
+}
+
 div.middle-content {
 	display: flex;
-	align-content: space-between;
+	justify-content: space-around;
+	padding: 60px 25px 100px 25px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 100%;
+}
+h4 {
+	font-size: 20px;
+	color: #5094f2;
+	line-height: 44px;
 }
 div.cart-content {
 	display: flex;
 	justify-content: center;
 }
+div.big-cart > h2 {
+	padding-bottom: 35px;
+}
+div.text-content {
+padding-left: 95px;
+font-size: 15px;
+line-height: 36px;
+padding-bottom: 65px;
+}
+h3 {
+	padding-top: 55px;
+	font-size: 26px;
+	padding-bottom: 35px;
+}
 p.copyright {
 	text-align: center;
 	border-top:1px solid #cccccc;
+	padding: 35px 0 45px 0;
 }
 
 .nav-menu> li {
 	padding: 0 20px;
-}
-.nav-menu> li:last-child {
-	padding-right: 0;
 }
 .iphone {
   width: 345px;
