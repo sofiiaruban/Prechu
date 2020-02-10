@@ -56,14 +56,12 @@ div.wrapper {
 	width: 1030px;
 	margin: 0 auto;
 } 
-
 body {
 	background: #ffffff;
 	font-family: myriad-pro, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	color: #6f7173;
-
 }
 h2 {
 	font-size: 42px;
@@ -114,6 +112,7 @@ div.top-content {
 	background-size: cover;
 	height: 490px;
 	color: #ffffff;
+	/*z-index*/
 }
 div.left-content {
 	padding-left: 100px;
@@ -138,7 +137,6 @@ button.sing-up:before {
 	content: url("Img/singupicon.png");
 	padding-right: 10px;
 }
-
 div.middle-content {
 	display: flex;
 	justify-content: space-around;
@@ -160,10 +158,10 @@ div.big-cart > h2 {
 	padding-bottom: 35px;
 }
 div.text-content {
-padding-left: 95px;
-font-size: 15px;
-line-height: 36px;
-padding-bottom: 65px;
+	padding-left: 95px;
+	font-size: 15px;
+	line-height: 36px;
+	padding-bottom: 65px;
 }
 h3 {
 	padding-top: 55px;
@@ -175,12 +173,11 @@ p.copyright {
 	border-top:1px solid #cccccc;
 	padding: 35px 0 45px 0;
 }
-
 .nav-menu> li {
 	padding: 0 20px;
 }
 .iphone {
-  width: 345px;
-  height: 436px;
-  z-index: 4;
+   width: 345px;
+   height: 436px;
+   z-index: 4;
 }
